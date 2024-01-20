@@ -3,6 +3,7 @@ import { TextField, InputAdornment, IconButton } from "@mui/material";
 import SearchIcon from "@mui/icons-material/Search";
 import {
   StyledBank,
+  StyledContent,
   StyledDiv,
   StyledHeader,
   StyledIcon,
@@ -88,10 +89,12 @@ const SearchBar = () => {
         {searchResults.map((bank) => (
           <Grid item xs={6} key={bank}>
             <StyledBank>
-              <StyledIcon>
-                <AccountBalanceIcon color="#a2acb1" />
-              </StyledIcon>
-              {bank}
+              <StyledContent>
+                <StyledIcon>
+                  <AccountBalanceIcon color="#a2acb1" />
+                </StyledIcon>
+                {bank}
+              </StyledContent>
               <Checkbox {...label} />
             </StyledBank>
           </Grid>

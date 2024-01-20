@@ -12,7 +12,7 @@ export const StyledTooltip = styled.div`
   font-weight: bold;
   color: #11356a;
   text-align: right;
-  cursor:pointer;
+  cursor: pointer;
 `;
 
 export const StyledIcon = styled.div`
@@ -36,4 +36,10 @@ export const StyledBank = styled.div`
 
 export const StyledDiv = styled.div`
   text-align: left;
+`;
+
+export const StyledContent = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 `;
