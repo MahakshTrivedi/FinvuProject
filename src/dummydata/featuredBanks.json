@@ -1,0 +1,20 @@
+{
+    "banks": [
+        {
+            "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Yes_Bank_New_Logo.png/440px-Yes_Bank_New_Logo.png",
+            "name":"Yes Bank"
+        },
+        {
+            "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/State-Bank-of-India-Logo.svg/440px-State-Bank-of-India-Logo.svg.png",
+            "name":"State Bank of India"
+        },
+        {
+            "logo": "https://companieslogo.com/img/orig/CANBK.NS-94324ae3.png?t=1613453726",
+            "name":"Canara Bank"
+        },
+        {
+            "logo": "https://companieslogo.com/img/orig/AXISBANK.BO-8f59e95b.png?t=1672905040",
+            "name":"Axis Bank"
+        }
+    ]
+}
